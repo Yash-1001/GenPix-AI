@@ -40,7 +40,7 @@ export const assets = {
 export const stepsData = [
     {
       title: 'Describe Your Vision',
-      description: 'Type a phrase, sentence, or paragraph that describes the image you want to create.',
+      description: 'Enter a phrase, sentence, or paragraph that captures the image you want to generate.',
       icon: step_icon_1,
     },
     {
