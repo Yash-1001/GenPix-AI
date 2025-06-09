@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "install-all": "npm install && cd client && npm install && cd ../server && npm install",
-    "build": "cd client && npm run build",
-    "start": "cd server && npm start"
+     "build": "cd client && npm run build",
+    "start": "concurrently \"npm run start --prefix server\" \"npm run preview --prefix client\""
   },
    "dependencies": {
     "npm": "^11.4.1",
